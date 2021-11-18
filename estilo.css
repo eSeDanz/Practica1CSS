@@ -8,6 +8,11 @@ header {
 	color: blue;
 }
 
+span.grandeynegro {
+	color: black;
+	font-size: 300%;
+}
+
 p.formato {
 	box-sizing: content-box;
 	display: inline-block;
@@ -43,7 +48,6 @@ p.contador::before {
 
 img.absoluto {
 	position: absolute;
-	top: 500px;
+	top: 550px;
 	left: 450px;
 }
-
