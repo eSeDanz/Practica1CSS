@@ -1,1 +1,43 @@
 @charset "UTF-8";
+body {
+	background-color: #b7dbdb;
+}
+
+header {
+	text-align: center;
+	color: blue;
+}
+
+p.formato {
+	box-sizing: content-box;
+	display: inline-block;
+}
+
+p.formato:hover {
+	background-color: yellow;
+	color: red;
+}
+
+p.firstline::first-line {
+	color: red;
+}
+
+a:link {
+	background-color: white;
+	color: blue;
+}
+
+a:visited {
+	background-color: blue;
+	color: white;
+}
+
+h4 {
+	counter-reset: dyna;
+}
+
+p.contador::before {
+	content: counter(dyna) ". ";
+	counter-increment: dyna;
+}
+
