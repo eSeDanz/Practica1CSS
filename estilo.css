@@ -41,3 +41,9 @@ p.contador::before {
 	counter-increment: dyna;
 }
 
+img.absoluto {
+	position: absolute;
+	top: 500px;
+	left: 450px;
+}
+
