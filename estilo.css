@@ -48,6 +48,6 @@ p.contador::before {
 
 img.absoluto {
 	position: absolute;
-	top: 550px;
-	left: 450px;
+	top: 500px;
+	left: 800px;
 }
